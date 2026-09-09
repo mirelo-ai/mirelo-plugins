@@ -1,0 +1,17 @@
+{
+  "name": "mirelo-plugins",
+  "owner": {
+    "name": "Mirelo AI"
+  },
+  "metadata": {
+    "description": "Mirelo integrations for Cursor",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mirelo",
+      "source": ".",
+      "description": "Sound effects, audio editing, and Audio-to-MIDI through the hosted Mirelo MCP."
+    }
+  ]
+}
