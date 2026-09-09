@@ -1,0 +1,20 @@
+{
+  "name": "mirelo",
+  "version": "1.0.0",
+  "description": "Generate and edit sound effects from text or video, and convert recordings into MIDI and notation. Requires a Mirelo account and credits.",
+  "author": {
+    "name": "Mirelo AI"
+  },
+  "homepage": "https://mirelo.ai/mcp",
+  "keywords": [
+    "audio",
+    "sound-effects",
+    "foley",
+    "video",
+    "midi",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "mcp.json",
+  "repository": "https://github.com/mirelo-ai/mirelo-cursor-plugin"
+}
