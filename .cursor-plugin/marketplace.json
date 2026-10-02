@@ -4,8 +4,8 @@
     "name": "Mirelo AI"
   },
   "metadata": {
-    "description": "Mirelo integrations for Cursor",
-    "version": "1.0.1"
+    "description": "Mirelo plugins for AI assistants",
+    "version": "1.0.2"
   },
   "plugins": [
     {

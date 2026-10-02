@@ -8,13 +8,13 @@ Use a Mirelo Studio account and sign in through Mirelo OAuth when connecting. Co
 
 ## Install and connect
 
-This repository packages the same Mirelo integration for Cursor and Claude. Each platform has its own manifest and MCP configuration; the workflow skills, assets, license, and service documentation are shared. The repository URL is retained for existing Cursor installation links.
+This repository packages the same Mirelo integration for Cursor and Claude. Each platform has its own manifest and MCP configuration; the workflow skills, assets, license, and service documentation are shared. GitHub redirects the earlier Cursor repository URL to this repository, preserving existing installation links.
 
 These packages are being prepared for Marketplace and Directory review and are not yet listed.
 
 ### Cursor
 
-Add `https://github.com/mirelo-ai/mirelo-cursor-plugin` as a plugin marketplace in Cursor and select Mirelo. For local testing, place this folder under `~/.cursor/plugins/local/mirelo` and reload Cursor; local plugin imports must be allowed by your workspace. Connect the Mirelo MCP server and sign in through Mirelo OAuth.
+Add `https://github.com/mirelo-ai/mirelo-plugins` as a plugin marketplace in Cursor and select Mirelo. For local testing, place this folder under `~/.cursor/plugins/local/mirelo` and reload Cursor; local plugin imports must be allowed by your workspace. Connect the Mirelo MCP server and sign in through Mirelo OAuth.
 
 Alternatively, add the contents of `mcp.json` to your Cursor MCP configuration, preserving other server entries. Manual configuration tests the server connection; it does not verify Marketplace installation.
 
@@ -22,7 +22,7 @@ Alternatively, add the contents of `mcp.json` to your Cursor MCP configuration, 
 
 For testing in Claude, zip this repository's plugin files, including the hidden `.claude-plugin` folder and `.mcp.json`, and upload the archive through Customize > Plugins > Add > Upload plugin. Open the plugin's Connectors tab, connect Mirelo, and complete Sign in with Mirelo. On Team or Enterprise, an Owner may need to add the connector for the organization first.
 
-For Claude Code, load this folder with `claude --plugin-dir /absolute/path/to/mirelo-cursor-plugin`, then use `/mcp` to connect. The skills are available as `/mirelo-sound-design:sound-design` and `/mirelo-sound-design:audio-to-midi`.
+For Claude Code, load this folder with `claude --plugin-dir /absolute/path/to/mirelo-plugins`, then use `/mcp` to connect. The skills are available as `/mirelo-sound-design:sound-design` and `/mirelo-sound-design:audio-to-midi`.
 
 The remote MCP URL is `https://mcp.mirelo.ai/mcp`.
 
