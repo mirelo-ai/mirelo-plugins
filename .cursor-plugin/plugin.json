@@ -1,6 +1,6 @@
 {
   "name": "mirelo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate and edit sound effects from text or video, and convert recordings into MIDI and notation. Requires a Mirelo account and credits.",
   "author": {
     "name": "Mirelo AI"

@@ -1,0 +1,26 @@
+{
+  "name": "mirelo-sound-design",
+  "displayName": "Mirelo",
+  "version": "1.0.0",
+  "description": "Generate and edit sound effects from text or video, and transcribe recordings into MIDI and notation using Mirelo. Requires a Mirelo account; paid jobs use Studio credits.",
+  "author": {
+    "name": "Mirelo AI",
+    "email": "support@mirelo.ai",
+    "url": "https://mirelo.ai"
+  },
+  "homepage": "https://mirelo.ai/mcp",
+  "repository": "https://github.com/mirelo-ai/mirelo-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "sound-effects",
+    "foley",
+    "video",
+    "midi"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://mirelo.ai/mcp",
+  "supportUrl": "https://mirelo.ai/support",
+  "privacyPolicyUrl": "https://mirelo.ai/privacy",
+  "termsOfServiceUrl": "https://mirelo.ai/terms"
+}
